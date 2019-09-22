@@ -196,7 +196,7 @@ def main():
 
     # Class attributes for the ReviewrClassification object
     attributes = {
-        'data_path': 'Data/data.csv',             # Path to csv data file to train on (training=True) and complete (training=False)
+        'data_path': 'Data/reviews.csv',          # Path to csv data file to train on (training=True) and complete (training=False)
         'classified_path': 'Data/classifed.csv',  # Path to save csv data file completed by classified missing labels
         'model_path': 'Data/Models/',             # Directory where to store keras models and weights
         'model_weights': 'Data/Models/model_weights_epochs7_layers1-dropout0.10-eta1.000e-3.h5',  # Directory if loading weights
